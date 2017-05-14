@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.privateassignment.xir522.ppb_movies;
+package id.sch.smktelkom_mlg.privateassignment.xirpl522.ppb_movies;
 
 import org.junit.Test;
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:id="@+id/imageViewPoster"/>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:padding="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        tools:text="Judul" />
+
+    <TextView
+        android:id="@+id/textViewDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        tools:text="Desc" />
+
+</LinearLayout>
